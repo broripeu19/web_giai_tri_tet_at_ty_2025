@@ -1,20 +1,20 @@
 @font-face {
   font-family: 'fontOngDo'; 
-  src: url('/fonts/UTM-Ong-Do-Gia.ttf') format('truetype');
+  src: url('../fonts/UTM-Ong-Do-Gia.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'fontChucTet'; 
-  src: url('/fonts/UTM-ThuPhap-Thien-An.ttf') format('truetype');
+  src: url('../fonts/UTM-ThuPhap-Thien-An.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'fontLoiChuc'; 
-  src: url('/fonts/UTM\ Talling.ttf') format('truetype');
+  src: url('../fonts/UTM\ Talling.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
