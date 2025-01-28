@@ -101,7 +101,6 @@ body {
   }
   .text1 {
     font-family: 'fontLoiChuc', cursive;
-    letter-spacing: 0.5px;
     font-size: 30px;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -208,4 +207,11 @@ body {
     border: 0;
     background-color: #cccccc73;
     color: aliceblue;
+  }
+
+  .text2{
+    font-family: 'fontOngDo';
+    font-size: xx-large;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
