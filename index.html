@@ -19,11 +19,10 @@
     <source src="img_vd_ms/fireworks loop.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <audio autoplay loop>
+  <audio id="background-music" muted loop>
     <source src="img_vd_ms/nhac-tet.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
-
   <div class="container">
     <h1 class="thu-phap">Chúc mừng năm mới Ất Tỵ</h1>
     <p class="text1">Chúc bạn 12 tháng phú quý, 365 ngày phát tài, 8.760 giờ sung túc, 525.600 phút thành công và 31.536.000 giây mã đáo.</p>
@@ -31,5 +30,14 @@
     <div id="countdown"></div>
     <br>
     <script src="js/demnguoc.js"></script>
+    <script>
+      function unmuteMusic() {
+        const music = document.getElementById('background-music');
+        music.muted = false;
+        music.play();
+      }
+    </script>
 </body>
+<button class="music" onclick="unmuteMusic()">music</button>
+
 </html>
