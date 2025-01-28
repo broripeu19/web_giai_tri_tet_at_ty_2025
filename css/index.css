@@ -202,12 +202,24 @@ body {
   }
 
   .music {
-    margin-top: 260px;
-    margin-left: 1110px;
-    border: 0;
-    background-color: #cccccc73;
-    color: aliceblue;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
   }
+  
+  .music:hover {
+    background-color: #45a049;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
 
   .text2{
     font-family: 'fontOngDo';

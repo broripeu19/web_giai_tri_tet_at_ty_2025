@@ -33,12 +33,24 @@
     <script src="js/demnguoc.js"></script>
     <script>
       function unmuteMusic() {
+        // Logic để bật nhạc
+        const audioElement = document.querySelector("audio");
+        if (audioElement) {
+          audioElement.muted = false; // Bỏ tắt tiếng
+        }
+      
+        // Ẩn nút sau khi click
+        const button = document.getElementById("musicButton");
+        if (button) {
+          button.classList.add("hidden"); // Thêm class để ẩn nút
+        }
         const music = document.getElementById('background-music');
         music.muted = false;
         music.play();
       }
+      
     </script>
 </body>
-<button class="music" onclick="unmuteMusic()">music</button>
+<button class="music" id="musicButton" onclick="unmuteMusic()">music</button>
 
 </html>
